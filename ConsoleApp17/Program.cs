@@ -25,7 +25,7 @@ namespace Project
             { 
                 sum += item;
             }
-            if (n >= 2) 
+            if (n > 0) 
             {
                 int result = sum / n; 
                 Console.WriteLine("Soma: " + sum);
